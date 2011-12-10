@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		154E81DD149297C0002DBFC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 154E81DC149297C0002DBFC4 /* UIKit.framework */; };
+		154E81DF149297C0002DBFC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 154E81DE149297C0002DBFC4 /* Foundation.framework */; };
+		154E81E1149297C0002DBFC4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 154E81E0149297C0002DBFC4 /* CoreGraphics.framework */; };
+		154E81E7149297C0002DBFC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 154E81E5149297C0002DBFC4 /* InfoPlist.strings */; };
+		154E81E9149297C0002DBFC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 154E81E8149297C0002DBFC4 /* main.m */; };
+		154E81ED149297C0002DBFC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 154E81EC149297C0002DBFC4 /* AppDelegate.m */; };
+		154E81F0149297C0002DBFC4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 154E81EE149297C0002DBFC4 /* MainStoryboard.storyboard */; };
+		154E81F3149297C0002DBFC4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 154E81F2149297C0002DBFC4 /* MainViewController.m */; };
+		154E81F6149297C0002DBFC4 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 154E81F5149297C0002DBFC4 /* FlipsideViewController.m */; };
+		154E81FD14929B50002DBFC4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 154E81FC14929B50002DBFC4 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		154E81D8149297C0002DBFC4 /* TaxiLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		154E81DC149297C0002DBFC4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		154E81DE149297C0002DBFC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		154E81E0149297C0002DBFC4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		154E81E4149297C0002DBFC4 /* TaxiLogger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaxiLogger-Info.plist"; sourceTree = "<group>"; };
+		154E81E6149297C0002DBFC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		154E81E8149297C0002DBFC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		154E81EA149297C0002DBFC4 /* TaxiLogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaxiLogger-Prefix.pch"; sourceTree = "<group>"; };
+		154E81EB149297C0002DBFC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		154E81EC149297C0002DBFC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		154E81EF149297C0002DBFC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		154E81F1149297C0002DBFC4 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		154E81F2149297C0002DBFC4 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		154E81F4149297C0002DBFC4 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		154E81F5149297C0002DBFC4 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		154E81FC14929B50002DBFC4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		154E81D5149297C0002DBFC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154E81FD14929B50002DBFC4 /* MapKit.framework in Frameworks */,
+				154E81DD149297C0002DBFC4 /* UIKit.framework in Frameworks */,
+				154E81DF149297C0002DBFC4 /* Foundation.framework in Frameworks */,
+				154E81E1149297C0002DBFC4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		154E81CD149297C0002DBFC4 = {
+			isa = PBXGroup;
+			children = (
+				154E81E2149297C0002DBFC4 /* TaxiLogger */,
+				154E81DB149297C0002DBFC4 /* Frameworks */,
+				154E81D9149297C0002DBFC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		154E81D9149297C0002DBFC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				154E81D8149297C0002DBFC4 /* TaxiLogger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		154E81DB149297C0002DBFC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				154E81FC14929B50002DBFC4 /* MapKit.framework */,
+				154E81DC149297C0002DBFC4 /* UIKit.framework */,
+				154E81DE149297C0002DBFC4 /* Foundation.framework */,
+				154E81E0149297C0002DBFC4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		154E81E2149297C0002DBFC4 /* TaxiLogger */ = {
+			isa = PBXGroup;
+			children = (
+				154E81EB149297C0002DBFC4 /* AppDelegate.h */,
+				154E81EC149297C0002DBFC4 /* AppDelegate.m */,
+				154E81EE149297C0002DBFC4 /* MainStoryboard.storyboard */,
+				154E81F1149297C0002DBFC4 /* MainViewController.h */,
+				154E81F2149297C0002DBFC4 /* MainViewController.m */,
+				154E81F4149297C0002DBFC4 /* FlipsideViewController.h */,
+				154E81F5149297C0002DBFC4 /* FlipsideViewController.m */,
+				154E81E3149297C0002DBFC4 /* Supporting Files */,
+			);
+			path = TaxiLogger;
+			sourceTree = "<group>";
+		};
+		154E81E3149297C0002DBFC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				154E81E4149297C0002DBFC4 /* TaxiLogger-Info.plist */,
+				154E81E5149297C0002DBFC4 /* InfoPlist.strings */,
+				154E81E8149297C0002DBFC4 /* main.m */,
+				154E81EA149297C0002DBFC4 /* TaxiLogger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		154E81D7149297C0002DBFC4 /* TaxiLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 154E81F9149297C0002DBFC4 /* Build configuration list for PBXNativeTarget "TaxiLogger" */;
+			buildPhases = (
+				154E81D4149297C0002DBFC4 /* Sources */,
+				154E81D5149297C0002DBFC4 /* Frameworks */,
+				154E81D6149297C0002DBFC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaxiLogger;
+			productName = TaxiLogger;
+			productReference = 154E81D8149297C0002DBFC4 /* TaxiLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		154E81CF149297C0002DBFC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 154E81D2149297C0002DBFC4 /* Build configuration list for PBXProject "TaxiLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 154E81CD149297C0002DBFC4;
+			productRefGroup = 154E81D9149297C0002DBFC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				154E81D7149297C0002DBFC4 /* TaxiLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		154E81D6149297C0002DBFC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154E81E7149297C0002DBFC4 /* InfoPlist.strings in Resources */,
+				154E81F0149297C0002DBFC4 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		154E81D4149297C0002DBFC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154E81E9149297C0002DBFC4 /* main.m in Sources */,
+				154E81ED149297C0002DBFC4 /* AppDelegate.m in Sources */,
+				154E81F3149297C0002DBFC4 /* MainViewController.m in Sources */,
+				154E81F6149297C0002DBFC4 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		154E81E5149297C0002DBFC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				154E81E6149297C0002DBFC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		154E81EE149297C0002DBFC4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				154E81EF149297C0002DBFC4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		154E81F7149297C0002DBFC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		154E81F8149297C0002DBFC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		154E81FA149297C0002DBFC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaxiLogger/TaxiLogger-Prefix.pch";
+				INFOPLIST_FILE = "TaxiLogger/TaxiLogger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		154E81FB149297C0002DBFC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaxiLogger/TaxiLogger-Prefix.pch";
+				INFOPLIST_FILE = "TaxiLogger/TaxiLogger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		154E81D2149297C0002DBFC4 /* Build configuration list for PBXProject "TaxiLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154E81F7149297C0002DBFC4 /* Debug */,
+				154E81F8149297C0002DBFC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		154E81F9149297C0002DBFC4 /* Build configuration list for PBXNativeTarget "TaxiLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154E81FA149297C0002DBFC4 /* Debug */,
+				154E81FB149297C0002DBFC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 154E81CF149297C0002DBFC4 /* Project object */;
+}
